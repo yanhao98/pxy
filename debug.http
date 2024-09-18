@@ -1,0 +1,8 @@
+###
+GET http://localhost:8787
+
+###
+GET http://localhost:8787/@vue%2Fbabel-plugin-jsx
+
+###
+GET http://localhost:8787/@vue/babel-plugin-jsx/-/babel-plugin-jsx-1.0.0-rc.2.tgz

@@ -1,0 +1,7 @@
+services: # docker compose -f docker-compose-dev.yml up --build
+  flask-pxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8787:8787"
